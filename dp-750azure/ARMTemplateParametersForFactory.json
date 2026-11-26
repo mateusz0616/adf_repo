@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dp-750azure"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://lakegen2storage.dfs.core.windows.net/"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "projest-dp750.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "sql-practise-dp750"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "admina"
+		},
+		"LS_KeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://project-keyvault1.vault.azure.net/"
+		},
+		"LS_PostgreSql_properties_typeProperties_server": {
+			"value": "ep-shiny-unit-bgz0w53q-pooler.c-9.eu-central-1.aws.neon.tech"
+		},
+		"LS_PostgreSql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		}
+	}
+}
