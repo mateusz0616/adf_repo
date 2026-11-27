@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "dp-750azure"
 		},
+		"AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1127-083913-q9c6r8al"
+		},
 		"LS_ADLS_properties_typeProperties_url": {
 			"value": "https://lakegen2storage.dfs.core.windows.net/"
 		},
